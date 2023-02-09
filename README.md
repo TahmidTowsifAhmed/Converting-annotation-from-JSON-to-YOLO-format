@@ -27,12 +27,8 @@ In addition to the bounding boxes and the matching traffic sign templates, the a
 -	included if the sign is part of another bigger sign 
 -	Exterior if the sign includes other signs.
 
-Furthermore, the dataset includes 52.000 images that are fully annotated, and 48.000 images that are partially annotated.
+Furthermore, the dataset includes 52.000 images that are fully annotated, and 48.000 images that are partially annotated. Detailed description of each of the labels can be found in the repository. 
 
+From the annotations, it is observed that the annotations are classfied into 401 classes, in 5 main categories: `complementary`, `information`,`regulatory`,`warning` and `other-sign`. For the convenience of the conversions, I have limited the labelling into these 5 classes.
 
-
-
-**NEED TO REMEMBER HERE TO EXPLAIN THE CLASSES DETAILS**
-
-**ALSO NEED TO ADD THE TXT FILE THAT EXPLAINS ALL THE ANNOTATION VALUES AND THEIR NUMBERS**
 ## Conversion of the json annotation to YOLO txt format

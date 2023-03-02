@@ -36,3 +36,6 @@ Download and open the [json2yolo_mapillaryfull.py](https://github.com/TahmidTows
 
 ## Looking for images missing annotations
 There can be cases while converting annotations is that YOLO annotation is not generated, since in some of the images there is no annotation. Too detect these images, you can look [find_missing_images.py](https://github.com/TahmidTowsifAhmed/Converting-annotation-from-JSON-to-YOLO-format/blob/main/find_missing_images.py), where in line 9, you direct the `path`wehre you have the images saved and in line 10, you direct the `path`where you have the respective annotations saved. The output will give you the list of the images that does not contain annotation files.
+
+## Deleting images missing annotations
+As we have identified the images that do not have annotaions, we can do two things: annotate the images or delete them. If you think you do not need these images, you can delete them with [delete_missing_images.py](https://github.com/TahmidTowsifAhmed/Converting-annotation-from-JSON-to-YOLO-format/blob/main/delete_missing_images.py). Same as before, just direct the path to the images and annotations folders in line 4 and 5 and run the script. This will delete the images that do have annotations missing.
